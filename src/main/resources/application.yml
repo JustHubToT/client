@@ -1,0 +1,9 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: work-flow
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
